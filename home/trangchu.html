@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./trangchu.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header>
+        <nav class="mainnav">
+            <img src="../img/net.jpeg" width="10%" height="0%" alt="">
+            <div class="forminput">
+                <input placeholder="Nhập tên phim ở đây" type="text">
+                <button>Send</button>
+            </div>
+
+            <ul class="mainul">
+                <li class="li1"><a href="#">Home</a></li>
+                <li class="li1"><a href="#row-poster1">New movies</a></li>
+                <li> <div class="dropup">
+                    <button class="dropupbutton">Top View</button>
+                    <div class="thedropupcontent">
+                        <a href="#">Ngày</a>
+                        <a href="#">Tuần</a>
+                        <a href="#">Tháng</a>
+                        <a href="#">Năm</a>
+                    </div></li>
+                <li class="li1"><a href="#">Follow</a></li>
+                <li class="li1"><a href="http://127.0.0.1:5500/Project/login/login.html">Log out</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="banner">
+            <div class="banner-content">
+                <h1 class="banner-title">STRANGER THINGS</h1>
+                <div class="banner-buttons">
+                    <button class="banner-button">Play</button>
+                    <button class="banner-button">My List</button>
+                </div>
+                <div class="banner-description">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium facere, et numquam obcaecati culpa hic non 
+                        similique dicta officia omnis voluptates, placeat reiciendis tempore sunt incidunt delectus, 
+                        quos illum tempora.</p>
+                </div>
+            </div>
+            <div class="banner-fade-bottom"></div>
+        </div>
+
+        <div class="row">
+            <h2 class="row-title">What's hot today</h2>
+            <div class="slick" id="row-poster1">
+                <div class="content-overlay"></div>
+            </div>
+    
+            <!-- row 2 -->
+            <h2 class="row-title">Popular on Netflix</h2>
+            <div class="slick" id="row-poster2">
+                <div class="content-overlay"></div>
+            </div>
+    
+            <!-- row 3 -->
+            <h2 class="row-title">Trending now</h2>
+            <div class="slick" id="row-poster3">
+                <div class="content-overlay"></div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="thefirst">
+            <div class="theanotherimg">
+                <img id="fb-icon" src="https://cdn-icons-png.flaticon.com/512/226/226234.png"
+                    width="40" height="40" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                    width="40" height="40" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                    width="40" height="40" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+                    width="40" height="40" alt="">
+                    <br>
+                <img id="net-icon" src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" alt="">
+            </div>
+        </div>
+        <div class="thesecond">
+            <ul><span class="title-footer">Thành viên phát triển </span>
+                <li>Điều hành: Xuân Hiếu</li>
+                <li>Phát triển: <br>
+                    Tuấn Anh <br>
+                    Hưng Long <br>
+                    Hoàng Phú
+                </li>
+
+            </ul>
+        </div>
+        <div class="thesecond">
+            <ul><span class="title-footer">Đường link hữu ích</span>
+                <li><a href="#">Hướng dẫn sử dụng</a></li>
+                <li><a href="#">Câu hỏi thường gặp</a></li>
+                <li><a href="#">Ghi nhận phản hồi</a></li>
+            </ul>
+        </div>
+        <div class="thesecond">
+            <ul><span class="title-footer">Trợ giúp</span>
+                <li><a href="#">Trung tâm trợ giúp</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+                <li><a href="#">Quyền riêng tư</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="./trangchu.js"></script>
+</body>
+</html>
