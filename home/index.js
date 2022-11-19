@@ -11,7 +11,7 @@ function signup(a){
     var json = JSON.stringify(user)
     localStorage.setItem(username,json)
     alert("Đăng ký thành công")
-    window.location.href="index.html"
+    window.location.href="https://trantuananh21.github.io/netflix-demo.github.io/"
 }
 function login(a){
     event.preventDefault();
