@@ -11,7 +11,7 @@ function signup(a){
     var json = JSON.stringify(user)
     localStorage.setItem(username,json)
     alert("Đăng ký thành công")
-    window.location.href="https://trantuananh21.github.io/netflix-demo.github.io/"
+    window.location.href="index.html"
 }
 function login(a){
     event.preventDefault();
@@ -25,7 +25,7 @@ function login(a){
     }
     else if(username == data.username && email == data.email && password == data.password){
         alert("Đăng nhập thành công")
-        window.location.href="https://trantuananh21.github.io/netflix-demo.github.io/home/trangchu.html"
+        window.location.href="trangchu.html"
     }
     else{
         alert("Đăng nhập thất bại")

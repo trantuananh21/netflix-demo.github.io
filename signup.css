@@ -17,7 +17,7 @@ body{
 }
 
 .wrapper{
-    background-image: url(../img/netflixbg.jpeg);
+    background-image: url(./img/netflixbg.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
