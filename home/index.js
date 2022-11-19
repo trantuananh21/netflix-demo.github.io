@@ -11,7 +11,7 @@ function signup(a){
     var json = JSON.stringify(user)
     localStorage.setItem(username,json)
     alert("Đăng ký thành công")
-    window.location.href="login.html"
+    window.location.href="index.html"
 }
 function login(a){
     event.preventDefault();
