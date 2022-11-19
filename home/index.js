@@ -25,7 +25,7 @@ function login(a){
     }
     else if(username == data.username && email == data.email && password == data.password){
         alert("Đăng nhập thành công")
-        window.location.href="trangchu.html"
+        window.location.href="https://trantuananh21.github.io/netflix-demo.github.io/home/trangchu.html"
     }
     else{
         alert("Đăng nhập thất bại")
